@@ -2,11 +2,10 @@ import React from 'react';
 
 const ResumeForm = () => {
   return (
-    <div className="p-4">
-      <h2 className="text-2xl font-semibold mb-4">Resume Information</h2>
+    <div className="my-9 border border-gray-500 rounded-md h-screen mx-48 p-4 bg-white shadow-lg " >
       <form>
         <div className="mb-4">
-          <label className="block text-gray-600">Full Name</label>
+          <label className=" text-gray-600">Full Name</label>
           <input type="text" className="border rounded w-full py-2 px-3" />
         </div>
         {/* Add more input fields for other resume details */}
