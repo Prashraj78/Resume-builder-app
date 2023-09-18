@@ -5,9 +5,8 @@ import ResumeForm from './components/ResumeForm';
 
 function App() {
   return (
-    <div className="App"> 
-  <Header/>
-  <ResumeForm/>
+    <div className="App">
+      <Header />
     </div>
   );
 }
